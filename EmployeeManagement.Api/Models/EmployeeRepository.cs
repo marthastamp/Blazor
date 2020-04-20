@@ -9,7 +9,7 @@ namespace EmployeeManagement.Api.Models
 {
     public class EmployeeRepository : IEmployeeRepository
     {
-        private readonly AppDbContext appDbContext { get; set; }    
+        private readonly AppDbContext appDbContext;
         public EmployeeRepository(AppDbContext appDbContext)
         {
             this.appDbContext = appDbContext;
