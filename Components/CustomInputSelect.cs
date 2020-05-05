@@ -1,11 +1,10 @@
 ﻿using Microsoft.AspNetCore.Components.Forms;
-using Microsoft.AspNetCore.Routing.Template;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace EmployeeManagement.Web.Pages
+namespace Components
 {
     public class CustomInputSelect<TValue> : InputSelect<TValue>
     {
